@@ -1,0 +1,333 @@
+aside{
+    width: 25%;
+}
+article{
+    width: 75%;
+}
+.container{
+    display: flex;
+}
+.page-width{
+    width: 1170px;
+    margin: 0 auto;
+}
+.col-header ul{
+    list-style: none;
+    display: inline-block;
+}
+.col-header .top-row .left img{
+    width: 835px;
+    height: 400px;
+    margin-right: -40px;
+}
+.col-header .top-row .right img{
+    width: 275px;
+    height: 200px;
+    padding-left: 0;
+}
+.col-header .under-row ul li{
+    display: inline-block;
+}
+.col-header .under-row ul img{
+    width: 275px;
+    height: 200px;
+}
+header .header-link{
+    display: flex;
+    justify-content: space-between
+}
+header .header-link .left img{
+    float: left;
+    top: 5%;
+    clear: both;
+}
+header .header-link ul{
+    list-style: none;
+    padding-left: 0;
+}
+header .header-link ul li{
+    margin-left: 20px;
+}
+header .header-link .right{
+    display: flex;
+    justify-content: space-around;
+}
+header .header-link a{
+    text-decoration: none;
+}
+header .banner img{
+    position: relative;
+    top: -10px;
+}
+.inline{
+    display: flex;
+    align-items: center;
+}
+.inline .title{
+    width: 75%;
+}
+.inline .icons{
+    width: 25%;
+    position: relative;
+}
+.inline .icons ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0%;
+}
+.inline .icons li{
+    margin-left: 20px;
+}
+.inline .drop-content{
+    width: 350px;
+    height: 350px;
+    padding: 25px 25px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    border-radius: 15px;
+    display: none;
+}
+.inline .drop-content a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.inline .drop-content h5{
+    color: lightgrey;
+}
+.inline ul:hover .drop-content{
+    display: block;
+    z-index: 1;
+}
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: lightgreen;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav .left{
+    width: 60%;
+}
+nav .right{
+    width: 40%;
+}
+nav .right ul{
+    margin-left: 35%;
+}
+.mini-header .nav{
+    color: gray;
+}
+.mini-header .nav a{
+    text-decoration: none;
+    color: gray;
+}
+.mini-header .nav a:hover{
+    color: #4651a7;
+}
+article .mini-header .nav{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+article .mini-header .nav a{
+    display: flex;
+    width: 30%;
+}
+article .mini-header .nav a>.change-icon{
+    width: 15px;
+    margin-left: 5px;
+    background-image: url(./images/down-arrow.png);
+}
+article .mini-header .nav a .change-icon:hover{
+    background-image: url(./images/up-arrow.png);
+}
+.col-4{
+    margin-top: 15px;
+}
+.col-4 .prod{
+    display: inline-block;
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 10px;
+    margin: 0 -2px;
+    height: 220px;
+    font-size: 18px;
+}
+.col-4 .prod div{
+    margin-bottom: 5px;
+}
+.col-4 .prod:hover{
+    transform: scale(1.2);
+    background-color: white;
+}
+.col-4 .prod .so-luong{
+    color: lightgreen;
+}
+.col-4 .prod .gia{
+    font-weight: bold;
+}
+.col-4 .prod img{
+    max-width: 100%;
+    max-height: 60%;
+}
+aside .list-prod ul{
+    list-style: none;
+    padding-left: 0;
+    font-size: 19px;
+}
+aside .list-prod li{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+aside .list-prod li:hover{
+    background-color: lightgrey;
+    width: 90%;
+}
+aside .list-prod a{
+    text-decoration: none;
+    color: black;
+}
+aside .extra{
+    height: 800px;
+    width: 97%;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+aside .extra ul{
+    padding-left: 0;
+}
+aside .extra li{
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+aside .extra li h4{
+    margin: 5px auto;
+}
+ul{
+    list-style: none;
+}
+.sach{
+    padding-left: 0;
+    
+}
+.sach .cross{
+    text-decoration: line-through;
+}
+.sach .price{
+    color: orangered;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.sach ul{
+    display: inline-block;
+    padding-left: 0;
+    border: 1px solid lightgrey;
+    position: relative;
+    width: 200px;
+}
+.sach ul .giam{
+    width: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: orange;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.sach ul li{
+    text-align: center;
+    padding-top: 10px;
+}
+.display-sp{
+    width: 1100px;
+    position: relative;
+    z-index: -1;
+}
+.display-sp p{
+    font-size: 17px;
+    text-align: justify;
+}
+.display-sp img{
+    width: 600px;
+    height: 400px;
+}
+.display-sp ul{
+    padding-left: 0;
+    display: inline-block;
+    margin: 0 auto;
+}
+.display-sp .display{
+    width: 700px;
+}
+.display-sp .display ul li{
+    display: inline;
+    margin-left: 10px;
+}
+.display-sp a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.display-sp a:hover{
+    text-decoration: underline;
+}
+.display-sp .mua{
+    width: 300px;
+    padding: 15px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.display-sp .mua input{
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 18px;
+}
+.display-sp .mua label a{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #4651a7;
+    color: white;
+}
+.display .mua li{
+    margin-bottom: 10px;
+}
+.display-sp .mua .footer-text{
+    text-align: center;
+}
+footer .gioi-thieu{
+    display: flex;
+    justify-content: space-between;
+}
+footer .gioi-thieu .header-text{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+footer .gioi-thieu .text ul{
+    list-style: none;
+    padding-left: 0%;
+}
+footer .gioi-thieu .text ul li{
+    margin-top: 15px;
+}
+footer .gioi-thieu .text ul a{
+    text-decoration: none;
+    color: #4651a7;
+}
+footer .gioi-thieu .text ul a:hover{
+    text-decoration: underline;
+}
